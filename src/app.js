@@ -15,9 +15,8 @@ App = {
   },
 
   loadContract: async () => {
-    // Create a JavaScript readable version of the smart contract
     const todoList = await $.getJSON('TodoList.json');
-    
+
     App.contracts.TodoList = TruffleContract(todoList);
     App.contracts.TodoList.setProvider(window.ethereum);
 
