@@ -1,4 +1,4 @@
-# Ethereum Blockchain Decentralized Application - Todo List
+# Ethereum Blockchain DApp - Todo List
 
 A simple todo list powered by Etheruem smart contracts to understand how blockchain works and its application on decentralized platform. Unlike traditional todo list applications, there is no centralized database where data is stored and retrived. The data content, script (in this case, the smart contracts) and list items are stored directly on a network distributed over the blockchain nodes.
 
