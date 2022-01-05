@@ -1,6 +1,6 @@
 # Ethereum Blockchain Decentralized Application - Todo List
 
-A simple todo list powered by etheruem smart contracts to understand how blockchain works and it is connected to an application via decentralized platform. Unlike traditional todo list applications, there is no central database where data is stored. The data content and list items are stored on a network distributed over the blockchain nodes.
+A simple todo list powered by Etheruem smart contracts to understand how blockchain works and its application on decentralized platform. Unlike traditional todo list applications, there is no centralized database where data is stored and retrived. The data content, script (in this case, the smart contracts) and list items are stored directly on a network distributed over the blockchain nodes.
 
 ## Dependencies
 * [Solidity](https://docs.soliditylang.org/en/v0.5.3/) - High-level language for implementing Smart Contracts 
@@ -30,7 +30,7 @@ $ npm run dev
 ```
 
 ### Listing Tasks
-A task is modelled using a struct using state variable to map tasks to a task counter.
+A task is modelled using a struct with state variable to map tasks to a task counter.
 
 ```solidity
 // TodoList.sol
@@ -129,21 +129,21 @@ it ('toggles tasks completion', async () => {
 
 ![testing](https://user-images.githubusercontent.com/55768917/148163313-1c9c2e49-590a-45b7-9488-69ad739b0a9a.png)
 
-### Ganache Personal Blockchain 
-A personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates using the truffle suite.
+## Ganache Personal Blockchain 
+A personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates using the truffle suite. Each addition and completion of a tasks results in a transaction to the smart contract.
 
 ![Screenshot 2022-01-04 235850](https://user-images.githubusercontent.com/55768917/148163360-cc8cea95-9cab-4b27-90e3-845c22cd6054.png)
 
 ## Metamask
 
-Google Chrome extension allowing blockchain applications to be performed housing a crypto-wallet. Metamask allows for managing our personal account when connecting to the blockchain, as well as manage ETH funds needed to pay for transactions. 
+A Google Chrome extension allowing blockchain applications to be performed housing a crypto-wallet. Metamask allows for managing our personal account when connecting to the blockchain, as well as manage ETH funds needed to pay for transactions. 
 
 ![Metamask](https://user-images.githubusercontent.com/55768917/148163515-c72ddadd-bf4c-473f-adc9-2280882a0cae.png)
 
 ## Acknowledgement
 
 Original idea: https://github.com/dappuniversity/eth-todo-list <br>
-Fixes for depreciated Web3.js and bootstrap bump: https://github.com/smrnjeet222/eth-todo-list-blockchain <br>
+Fixes for depreciated Web3.js and Bootstrap bump: https://github.com/smrnjeet222/eth-todo-list-blockchain <br>
 README file ideas: https://github.com/kenneth-liang/Ethereum-Todo-List <br>
 
 ## Disclaimer
