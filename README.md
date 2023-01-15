@@ -2,7 +2,7 @@
 
 A simple todo list powered by Etheruem smart contracts to understand how blockchain works and its application on decentralized platform. Unlike traditional todo list applications, there is no centralized database where data is stored and retrived. The data content, script (in this case, the smart contracts) and list items are stored directly on a network distributed over the blockchain nodes.
 
-## Working Technologies
+## Working Technology Stack
 <p align="left"> 
   <a href="https://docs.soliditylang.org/en/v0.5.3/" target="_blank"> <img src="https://docs.soliditylang.org/en/v0.5.3/_images/logo.svg" alt="solidity" width="40" height="40"/> </a> 
   <a href="https://www.trufflesuite.com/truffle" target="_blank"> <img src="https://trufflesuite.com/img/truffle-logo-light.svg" alt="truffle" width="40" height="40"/> </a> 
