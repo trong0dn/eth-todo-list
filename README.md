@@ -1,6 +1,20 @@
-# Ethereum Blockchain DApp - Todo List
+# Ethereum Blockchain DApp - To-do List
 
-A simple todo list powered by Etheruem smart contracts to understand how blockchain works and its application on decentralized platform. Unlike traditional todo list applications, there is no centralized database where data is stored and retrived. The data content, script (in this case, the smart contracts) and list items are stored directly on a network distributed over the blockchain nodes.
+*Warning:* Smart contracts are notorious for security vulnerabilities detected, here are some for this program.
+| Description | Weaknesses  |   CVE ID    |   GHSA ID   |
+| ----------- | ----------- | ----------- | ----------- |
+| cookiejar Regular Expression Denial of Service via Cookie.parse function | [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html) | [CVE-2022-25901](https://nvd.nist.gov/vuln/detail/CVE-2022-25901) | [GHSA-h452-7996-h45h](https://github.com/advisories/GHSA-h452-7996-h45h) |
+| ReDoS Vulnerability in ua-parser-js version | [CWE-400](https://cwe.mitre.org/data/definitions/400.html) <br/> [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html) | [CVE-2022-25927](https://nvd.nist.gov/vuln/detail/CVE-2022-25927) | [GHSA-fhg7-m89q-25r3](https://github.com/advisories/GHSA-fhg7-m89q-25r3) |
+| http-cache-semantics vulnerable to Regular Expression Denial of Service| [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html)  | [CVE-2022-25881](https://nvd.nist.gov/vuln/detail/CVE-2022-25881) | [GHSA-rc47-6667-2j5j](https://github.com/advisories/GHSA-rc47-6667-2j5j) |
+| semver vulnerable to Regular Expression Denial of Service | [CWE-1333](https://cwe.mitre.org/data/definitions/1333.html) | [CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883) | [GHSA-c2qf-rxjj-qqgw](https://github.com/advisories/GHSA-c2qf-rxjj-qqgw) |
+| Server-Side Request Forgery in Request | [CWE-918](https://cwe.mitre.org/data/definitions/918.html) | [CVE-2023-28155](https://nvd.nist.gov/vuln/detail/CVE-2023-28155) | [GHSA-p8p7-x288-28g6](https://github.com/advisories/GHSA-p8p7-x288-28g6) |
+| tough-cookie Prototype Pollution vulnerability | [CWE-1321](https://cwe.mitre.org/data/definitions/1321.html) | [CVE-2023-26136](https://nvd.nist.gov/vuln/detail/CVE-2023-26136) | [GHSA-72xf-g2v4-qvf3](https://github.com/advisories/GHSA-72xf-g2v4-qvf3) |
+| Insufficient validation when decoding a Socket.IO packet | [CWE-20](https://cwe.mitre.org/data/definitions/20.html) <br/> [CWE-754](https://cwe.mitre.org/data/definitions/754.html) | [CVE-2023-32695](https://nvd.nist.gov/vuln/detail/CVE-2023-32695) | [GHSA-cqmj-92xf-r6r9](https://github.com/advisories/GHSA-cqmj-92xf-r6r9) |
+| Prototype Pollution in minimist | [CWE-1321](https://cwe.mitre.org/data/definitions/1321.html) | [CVE-2021-44906](https://nvd.nist.gov/vuln/detail/CVE-2021-44906) | [GHSA-xvch-5gv4-984h](https://github.com/advisories/GHSA-xvch-5gv4-984h) |
+
+## Description
+
+A simple to-do list powered by Ethereum smart contracts to understand how blockchain works and its application on decentralized platforms. Unlike traditional to-do list applications, there is no centralized database where data is stored and retrieved. The data content, script (in this case, the smart contracts), and list items are stored directly on a network distributed over the blockchain nodes.
 
 ## Working Technology Stack
 <p align="left"> 
@@ -16,7 +30,7 @@ A simple todo list powered by Etheruem smart contracts to understand how blockch
 
 ## Dependencies
 * [Solidity](https://docs.soliditylang.org/en/v0.8.11/) v5.0.0 - High-level language for implementing Smart Contracts 
-* [Truffle Suite Framework](https://www.trufflesuite.com/truffle) v5.0.2 - Ethereum Decentralized Application framework 
+* [Truffle Suite Framework](https://www.trufflesuite.com/truffle) v5.0.2 - Ethereum Decentralized Application Framework 
 * [Ganache](https://www.trufflesuite.com/ganache) v2.5.4 - Personal Ethereum blockchain run on a local machine
 * [Metamask](https://metamask.io/) v10.8.2 - Ethereum Wallet Google Chrome extension 
 * [web3.js](https://web3js.readthedocs.io/en/v1.3.4/) v1.3.4 - Library for interacting with Ethereum JavaScript API for blockchain (depreciated)
@@ -42,7 +56,7 @@ $ npm run dev
 ```
 
 ### Listing Tasks
-A task is modelled using a struct with state variable to map tasks to a task counter.
+A task is modeled using a struct with a state variable to map tasks to a task counter.
 
 ```solidity
 // TodoList.sol
@@ -142,7 +156,7 @@ it ('toggles tasks completion', async () => {
 ![testing](https://user-images.githubusercontent.com/55768917/148163313-1c9c2e49-590a-45b7-9488-69ad739b0a9a.png)
 
 ## Ganache Personal Blockchain 
-A personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates using the truffle suite. Each addition and completion of a tasks results in a transaction to the smart contract.
+A personal Ethereum blockchain that you can use to run tests, execute commands, and inspect state while controlling how the chain operates using the truffle suite. Each addition and completion of a tasks results in a transaction to the smart contract.
 
 ![Screenshot 2022-01-04 235850](https://user-images.githubusercontent.com/55768917/148163360-cc8cea95-9cab-4b27-90e3-845c22cd6054.png)
 
@@ -162,7 +176,7 @@ README file ideas: https://github.com/kenneth-liang/Ethereum-Todo-List <br>
 
 Copyright disclaimer under section 107 of the Copyright Act 1976, 
 allowance is made for “fair use” for purposes such as criticism, 
-comment, news reporting, teaching, scholarship, education and research.
+comment, news reporting, teaching, scholarship, education, and research.
 
 Fair use is a use permitted by copyright statute that might otherwise 
 be infringing.
