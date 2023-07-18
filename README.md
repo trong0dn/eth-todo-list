@@ -20,7 +20,7 @@ A simple to-do list powered by Ethereum smart contracts to understand how blockc
 <p align="left"> 
   <a href="https://docs.soliditylang.org/en/v0.5.3/" target="_blank"> <img src="https://docs.soliditylang.org/en/v0.5.3/_images/logo.svg" alt="solidity" width="40" height="40"/> </a> 
   <a href="https://www.trufflesuite.com/truffle" target="_blank"> <img src="https://trufflesuite.com/img/truffle-logo-light.svg" alt="truffle" width="40" height="40"/> </a> 
-  <a href="https://www.trufflesuite.com/ganache" target="_blank"> <img src="https://camo.githubusercontent.com/d70319ac2c816ab8bfa160416533097e3360b8afd08f920da37a4556ed77058c/68747470733a2f2f74727566666c6573756974652e6769746875622e696f2f67616e616368652f6173736574732f696d672f67616e616368652d6c6f676f2d6461726b2e737667" alt="ganache" width="40" height="40"/> </a> 
+  <a href="https://www.trufflesuite.com/ganache" target="_blank"> <img src="https://seeklogo.com/images/G/ganache-logo-9BC4FC62A4-seeklogo.com.png" alt="ganache" width="40" height="40"/> </a> 
   <a href="https://metamask.io/" target="_blank"> <img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg" alt="metamask" width="40" height="40"/> </a> 
   <a href="https://web3js.readthedocs.io/en/v1.3.4/" target="_blank"> <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/assets/logo/web3js.jpg" alt="web3js" width="40" height="40"/> </a> 
   <a href="https://mochajs.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> 
