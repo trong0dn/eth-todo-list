@@ -11,13 +11,13 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@truffle/contract": "^4.3.20",
+    "@truffle/contract": "^4.6.31",
     "bootstrap": "4.3.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^2.0.2",
     "lite-server": "2.3",
-    "nodemon": "^1.17.3",
+    "nodemon": "^3.0.3",
     "truffle": "5.0.2"
   }
 }
