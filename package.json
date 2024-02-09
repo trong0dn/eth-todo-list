@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@truffle/contract": "^4.3.20",
+    "@truffle/contract": "^4.6.31",
     "bootstrap": "4.3.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
