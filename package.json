@@ -16,8 +16,8 @@
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^2.0.2",
-    "lite-server": "2.3",
+    "lite-server": "2.6",
     "nodemon": "^3.0.3",
-    "truffle": "5.0.2"
+    "truffle": "5.11.5"
   }
 }
